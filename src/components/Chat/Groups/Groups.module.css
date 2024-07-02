@@ -1,0 +1,46 @@
+.group {
+    width: 100%;
+    background-color: #6fc0fb40;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: #26aeffc7;
+    border-style: solid;
+    border-width: thin;
+}
+
+.group_current {
+    background-color: #ff000040;
+    border-color: #ff0000c7;
+    border-style: solid;
+    border-width: medium;
+}
+
+.group_name {
+    font-weight: 700;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    user-select: none;
+}
+
+.group_message {
+    font-size: 16px;
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #000000ab;
+    user-select: none;
+}
+
+.groups {
+    min-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+

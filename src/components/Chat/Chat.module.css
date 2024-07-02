@@ -1,0 +1,7 @@
+.chat {
+    height: 100%;
+    display: grid;
+    width: 100%;
+    grid-template-areas: "groups messages";
+    grid-template-rows: 100%;
+}

@@ -1,0 +1,15 @@
+.common_page {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "navbar"
+        "content";
+    grid-template-rows: 1fr 90%;
+}
+
+.common_page_navbar {
+    grid-area: navbar
+}
+.common_page_content {
+    grid-area: content
+}
